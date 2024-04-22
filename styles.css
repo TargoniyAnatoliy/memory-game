@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 50px 15px 15px;
+    background: url(images/bg-image.jpg) center / cover no-repeat;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.game-wrapper {    
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 10px 10px 5px;
+    box-shadow: 1px 1px 2px 2px rgba(32, 64, 124, 0.6);
+    background: rgb(193,195,34);
+    background: linear-gradient(45deg, rgba(193,195,34,1) 0%, rgba(45,176,253,1) 100%);
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(40, 61, 119, 0.6);
+}
+
+#board {
+    max-width: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#controlPanel {
+    padding: 0 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#startGame {
+    font-size: 18px;
+    font-weight: 700;
+    color: #5c72ae;
+    border: none;
+    box-shadow: 1px 1px 2px #5c72ae;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#startGame:hover {
+    background-color: rgba(105, 142, 246, 0.4);
+    font-weight: 700;
+    color: #fff;
+}
+
+#scoreOutput {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px #7b7a7a;
+}
